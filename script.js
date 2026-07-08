@@ -270,3 +270,106 @@
 // }, 0);
 
 // console.log(total);
+
+
+
+//push
+
+// let fruits = ["apple","Banana",]
+
+// fruits.push("Mongo");
+
+// console.log(fruits);
+
+// slice
+
+// let colors = ["red","green","blue","yellow","purple"];
+
+// //index 1 theke shuruu kore  3 er ager index porjonto kata 
+// let newColors = colors.slice(1,3);
+
+// console.log(newColors)
+
+// 0 = শুরু হবে index 0 থেকে
+// 5 = index 5 এর আগ পর্যন্ত নিবে
+// let text = "hello world";
+// let word = text.slice(0,5);
+
+// console.log(word);
+
+
+//reverse
+// let numbers = [1,2,3,4,5];
+// numbers.reverse()
+// console.log(numbers)
+
+
+//join 
+//default vabe , diye add korbe ...
+// let fruits = ["apple","banana","mango"];
+
+// let result = fruits.join();
+// console.log(result)
+
+//desh diye
+// let fruits = ["apple","banana","mango"];
+
+// let result = fruits.join("-");
+// console.log(result);
+
+
+//pop
+// let fruits = ["apple","banana","orange"];
+// let removed = fruits.pop();
+// console.log(removed);
+// console.log(fruits);
+
+
+//unshift
+// const fruits = ["apple","mango"]
+// fruits.unshift("mongo")
+// console.log(fruits)
+
+
+//shift
+// const fruits = ["apple","banana","mango"]
+
+// const result = fruits.shift();
+// console.log(fruits);
+// console.log(result);
+
+
+//startsWith
+// const text = "hello world";
+
+// console.log(text.startsWith("world"))
+
+//endsWith
+// const text = "hello world"
+//  console.log(text.endsWith("world"));
+
+
+//repeat
+// const text = "hi";
+// const result = text.repeat(3);
+// console.log(result);
+
+
+//default parameter
+// function greet(name= "guest"){
+//     console.log("hello"+name);
+
+// }
+// greet()
+
+
+//argument hisabe bithi pass kora holo
+
+// function greet(name= "guest"){
+//     console.log("hello"+ name)
+// }
+// greet("bithi")
+
+//arrow 
+const add = (a,b) =>a+b
+console.log(add(10,20))
