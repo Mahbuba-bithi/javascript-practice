@@ -371,5 +371,45 @@
 // greet("bithi")
 
 //arrow 
-const add = (a,b) =>a+b
-console.log(add(10,20))
+// const add = (a,b) =>a+b
+// console.log(add(10,20))
+
+
+
+
+
+//find the largest number
+// const numbers= [5,8,2,10,3];
+// const LargestNumber = numbers.reduce((max,current)=>{
+//     return current>max?current:max
+// });
+// console.log(LargestNumber);
+
+//find second largest number
+// const numbers = [5, 8, 2, 10, 3];
+
+// const secondLargest = numbers.sort((a, b) => b - a)[1];
+
+// console.log(secondLargest);
+
+// count even numbers
+// const numbers=[1,2,3,4,5,6];
+// const evenCount = numbers.filter(num => num % 2 === 0).length;
+// console.log(evenCount);
+
+//find smallest number 
+// const findSmallestNumber = arr =>{
+//     const smallestNumber = arr.reduce((min,current)=>{
+//         return current<min?current:min
+//     });
+//     console.log(smallestNumber);
+// }
+
+//positive number sum
+// const sumpositive = arr => {
+//     return arr
+//         .filter(num => num > 0)
+//         .reduce((sum, current) => sum + current, 0);
+// }
+
+// console.log(sumpositive([-2, 5, -1, 8, 3]));
